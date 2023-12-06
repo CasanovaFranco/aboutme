@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Franco CS</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">CASANOVA</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.jpeg" alt="">
+            </div>
+            <h1>Franco Casanova</h1>
+            <br>
+            <h2>Estudiante de Ingenieria de Sistemas - UPC</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/salirrolenin/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/casanova_franco08/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/franco-casanova-salirrosas-57751321a/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://cloudhq.net/s/d3f8ccaea0dc29"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.youtube.com/channel/UCs6EEMnG5Ns4kZ9Ejt3KCIw"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mí</h2>
+            <p><span>Hola, soy Franco Casanova.</span> Estudio la carrera de Ingeniería de Sistemas de Información en la Universidad Peruana de Ciencias Aplicadas (UPC). Escogí esta carrera, porque me interesa el avance de la tecnología y el tratamiento de la información. Tengo nivel intermedio de los idiomas de inglés y francés. Personalmente, me considero paciente y cuidadoso al realizar un trabajo. 
+
+                Mi objetivo principal es perfeccionar cada día mi habilidad y capacidad de liderazgo, con el fin de apoyar a las áreas de mi labor en la toma de decisiones.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            10-05-2001
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +51 987 057 521
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            fcasanovasalirrosas@gmail.com
+                        </li>
+                     
+                        <li>
+                            <strong>Dirección</strong>
+                            Lima, Perú 
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Interseguro: TI Intern</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-robot"></i>
+                            <span>RPA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>FUTBOL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        
+            <a href="img/Franco_Curriculum.pdf"  style="text-decoration:none" class="btn" download="Franco_Curriculum.pdf"> 
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+                
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>C++, C#, Python y Appscript (JS)</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SVM, CNN, LR y KNN </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Appscript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL Server - SQL Oracle</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Power BI - Data Studio - Tableau </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>liderazgo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Universidad</h4>
+                        <span class="casa">Universidad Peruana de Ciencias Aplicadas</span>
+                        <span class="fecha">2019 - 2023</span>
+                        <p>Estudio la carrera de Ingeniería de Sistemas de Información en la Universidad Peruana de Ciencias Aplicadas (UPC). Escogí esta carrera, porque me interesa el avance de la tecnología y el tratamiento de la información. Además, obtuve premio de honor en el Concurso de Digital Analytics y Google Analytics | Data Studio.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="item izq">
+                        <h4>Ingles</h4>
+                        <span class="casa">Idiomas Católica y UPC - Intermedio</span>
+                        <span class="fecha">2019-2022</span>
+                        <p>Realicé el curso de ingles con la metodología Flipped Learning, permitiendome mejorar el idioma ingles de manera eficaz. Además, obtuve la certificación TOEIC Bridge y TOEIC Two Skills. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="item izq">
+                        <h4>Francés</h4>
+                        <span class="casa">Alinza Francesa - Intermedio (B1.1)</span>
+                        <span class="fecha">2017-2019</span>
+                        <p>Realicé el curso de francés con métodos dinámicos, atractivos y vanguardistas, permitiendome mejorar el idioma francés de manera rápida y familiarizarse con las culturas francesa y francófonas.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Practicante TI</h4>
+                        <span class="casa">Interseguro</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <br>
+                        <span class="fecha">IT Intern for Agile & IT Governance: desarrollador de software, gobierno de datos, visualización de datos e innovación digital.</span>
+                        <ul>
+                            <br><li>Desarrollo de Chatbot para Help Desk utilizando IA de la plataforma Botmaker con canales: WhatsApp y Hangouts. Actualmente las consultas realizadas al Chatbot se responden de forma automática.</li>
+                            <br><li>Desarrollo de mensajes de alertas, para los contratos que están por vencer y vencidos, utilizando: Apps Script y Funciones de Hoja de Cálculo de Google, para envíos quincenales y mensuales.</li>
+                            <br><li>Desarrollo del Dashboard General, analizando los KPIs de cada área de la VP de tecnología de la información y utilizando: Looker Studio, Google Spreadsheet, Funciones y Datos Combinados.</li>
+                            <br><li>Desarrollo en las mejoras de la aplicación GTI, utilizando: ASP. NET, C#, SQL Oracle, HTML, CSS y JS.</li>
+                            <br><li>Desarrollo en las mejoras del Formulario BRP, para registrar iniciativas Fast Track, Regulares y Técnicas, y utilizando: Apps Script y Funciones de Hoja de Cálculo de Google, para enviar la información almacenada por Gmail.</li>
+                            <br><li>Trabajar en Proyectos Ágiles utilizando metodologías Scrum/Kanban, adaptando la teoría a las necesidades de la empresa.</li>
+                        </ul>
+                        
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Docente Particular</h4>
+                        <span class="casa">Domicilio</span>
+                        <span class="fecha">2019 - 2021</span>
+                        <p>Enseñar programación orientada a objetos, así como programación 1 y 2, con un enfoque en el desarrollo de aplicaciones de consola y la creación de juegos utilizando el lenguaje de programación C++. Uno de los aspectos más emocionantes de los cursos era la creación de juegos utilizando C++. Les enseñaba a los estudiantes cómo aplicar los conceptos de programación orientada a objetos para diseñar y desarrollar juegos simples pero entretenidos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                   <!-- <div class="item der">
+                        <h4>En proceso</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2018 - 2017</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <a href="https://sites.google.com/view/momentocapturado/inicio" style="text-decoration: none; color: white;">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Google Site</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Certificaciones</h2>
+            <div class="galeria">
+                <a href="https://sites.google.com/view/momentocapturado/inicio" style="text-decoration: none; color: white;">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Google Site</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col"> <input type="text" placeholder="Tú Nombre"> 
+                    <input type="text" placeholder="Número telefónico"> 
+                    <input type="text" placeholder="Dirección de correo"> 
+                    <input type="text" placeholder="Tema"> 
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea> 
+                    <a href="https://www.google.com.pe/?hl=es"  style="text-decoration:none" class="btn" download="Franco_Curriculum.pdf"> 
+                        <button>
+                            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </a>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.5348194216319!2d-77.09836227063903!3d-12.033931099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cea8c70f2b67%3A0x25382996e708abff!2sJr.%20Miguel%20Grau%2C%20Callao%2007041!5e0!3m2!1ses-419!2spe!4v1675211279600!5m2!1ses-419!2spe" 
+                    width="530" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Calle Miguel Grau 140
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                CALLAO
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                +51 987 057 521
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email:
+                                <br><br>
+                                <div>◉francolenin31@hotmail.com</div>
+                                <br>
+                                <div>◉fcasanovasalirrosas@gmail.com</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="col">
+      
+   
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/salirrolenin/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/casanova_franco08/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/franco-casanova-salirrosas-57751321a/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://cloudhq.net/s/d3f8ccaea0dc29"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.youtube.com/channel/UCs6EEMnG5Ns4kZ9Ejt3KCIw"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
